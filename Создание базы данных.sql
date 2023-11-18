@@ -13,7 +13,7 @@ create table if not exists Track (
 	ID serial primary key,
 	album_id integer references Album (ID),
 	track_name text not null,
-	track_length decimal (5,2) not null
+	track_length integer not null
 );
 
 create table if not exists Categories (

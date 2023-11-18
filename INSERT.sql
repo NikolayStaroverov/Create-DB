@@ -22,13 +22,23 @@ values
 
 insert into Track (album_id,track_name,track_length)
 values
-	(1,'Track_1',2.00),
-	(2,'Track_2',2.50),
-	(3,'Track_3',3.00),
-	(4,'Track_4',3.50),
-	(1,'Track_5',3.00),
-	(2,'Track_6',2.50),
-	(3,'My way',4.00);
+	(1,'Track_1',120),
+	(2,'Track_2',170),
+	(3,'Track_3',180),
+	(4,'Track_4',210),
+	(1,'Track_5',180),
+	(2,'Track_6',150),
+	(3,'My way',240),
+	(4,'my own',120),
+	(2,'own my',170),
+	(3,'my',180),
+	(4,'oh my god',210),
+	(1,'myself',180),
+	(2,'by myself',150),
+	(3,'bemy self',240),
+	(1,'myself by',180),
+	(2,'beemy',150),
+	(3,'premyne',240);
 
 insert into Collection(Collection_name,Collection_year)
 values
